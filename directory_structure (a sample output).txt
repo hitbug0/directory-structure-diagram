@@ -1,0 +1,29 @@
+C:\xxx\directory-structure-diagram
+ „¥„Ÿ„Ÿ .git
+ „     „¥„Ÿ„Ÿ HEAD
+ „     „¥„Ÿ„Ÿ config
+ „     „¥„Ÿ„Ÿ description
+ „     „¥„Ÿ„Ÿ hooks
+ „     „     „¥„Ÿ„Ÿ applypatch-msg.sample
+ „     „     „¥„Ÿ„Ÿ commit-msg.sample
+ „     „     „¥„Ÿ„Ÿ fsmonitor-watchman.sample
+ „     „     „¥„Ÿ„Ÿ post-update.sample
+ „     „     „¥„Ÿ„Ÿ pre-applypatch.sample
+ „     „     „¥„Ÿ„Ÿ pre-commit.sample
+ „     „     „¥„Ÿ„Ÿ pre-merge-commit.sample
+ „     „     „¥„Ÿ„Ÿ pre-push.sample
+ „     „     „¥„Ÿ„Ÿ pre-rebase.sample
+ „     „     „¥„Ÿ„Ÿ pre-receive.sample
+ „     „     „¥„Ÿ„Ÿ prepare-commit-msg.sample
+ „     „     „¥„Ÿ„Ÿ push-to-checkout.sample
+ „     „     „¤„Ÿ„Ÿ update.sample
+ „     „¥„Ÿ„Ÿ info
+ „     „     „¤„Ÿ„Ÿ exclude
+ „     „¥„Ÿ„Ÿ objects
+ „     „     „¥„Ÿ„Ÿ info
+ „     „     „¤„Ÿ„Ÿ pack
+ „     „¤„Ÿ„Ÿ refs
+ „     „     „¥„Ÿ„Ÿ heads
+ „     „     „¤„Ÿ„Ÿ tags
+ „¥„Ÿ„Ÿ directory-structure-diagram.py
+ „¤„Ÿ„Ÿ run.bat
