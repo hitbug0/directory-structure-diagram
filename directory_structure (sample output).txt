@@ -1,29 +1,36 @@
-C:\xxx\directory-structure-diagram
+C:\Users\xxx\directory-structure-diagram
  ├── .git
- │    ├── HEAD
- │    ├── config
- │    ├── description
+ │    ├── COMMIT_EDITMSG
  │    ├── hooks
- │    │    ├── applypatch-msg.sample
- │    │    ├── commit-msg.sample
- │    │    ├── fsmonitor-watchman.sample
- │    │    ├── post-update.sample
- │    │    ├── pre-applypatch.sample
- │    │    ├── pre-commit.sample
- │    │    ├── pre-merge-commit.sample
- │    │    ├── pre-push.sample
- │    │    ├── pre-rebase.sample
- │    │    ├── pre-receive.sample
- │    │    ├── prepare-commit-msg.sample
- │    │    ├── push-to-checkout.sample
- │    │    └── update.sample
+ │    │    ├── xxx.sample
+ │    ├── index
  │    ├── info
  │    │    └── exclude
+ │    ├── logs
+ │    │    ├── HEAD
+ │    │    └── refs
+ │    │         ├── heads
+ │    │         │    └── main
+ │    │         └── remotes
+ │    │              └── origin
+ │    │                   ├── HEAD
+ │    │                   └── main
  │    ├── objects
+ │    │    ├── 64
+ │    │    │    └── xxx
  │    │    ├── info
  │    │    └── pack
+ │    │         ├── xxx.idx
+ │    │         └── xxx.pack
+ │    ├── packed-refs
  │    └── refs
- │    │    ├── heads
- │    │    └── tags
+ │         ├── heads
+ │         │    └── main
+ │         ├── remotes
+ │         │    └── origin
+ │         │         ├── HEAD
+ │         │         └── main
+ │         └── tags
+ ├── README.md
  ├── directory-structure-diagram.py
  └── run.bat
