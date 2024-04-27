@@ -29,7 +29,7 @@ def explore_directory(directory, depth=0):
 
 def output_directory_structure(directory):
     structure = explore_directory(directory)
-    with open("directory_structure.txt", "w") as file:
+    with open("directory_structure.txt", "w", encoding="utf-8") as file:
         file.write(directory + "\n")
         file.write(structure)
 
