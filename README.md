@@ -1,5 +1,6 @@
-## What you can with this code
-You can create a directory structure diagram with this simple Python code.
+## What you can do with this code
+You can create a directory structure diagram using this code.
 
-## What you can get with this code
-Please see a sample output file.
+## What you can get by using this code
+Please refer to a sample output file.
+
