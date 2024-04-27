@@ -4,11 +4,21 @@ NUM_INDENTS = 1
 BRANCH = " "*NUM_INDENTS + "├── "
 LEAF   = " "*NUM_INDENTS + "└── "
 LINE   = " "*NUM_INDENTS + "│   "
+SPACE  = " "*NUM_INDENTS + "    "
+
+def make_line(lst):
+    result = ""
+    for item in lst:
+        if item == 0:
+            result += SPACE
+        elif item == 1:
+            result += LINE
+    return result
 
 def make_branch(item, depth, shape=BRANCH):
-    return LINE * depth + shape + item + "\n"
+    return make_line(depth) + shape + item + "\n"
 
-def explore_directory(directory, depth=0):
+def explore_directory(directory, depth=[]):
     result = ""
     items = os.listdir(directory)
     items.sort()
@@ -17,12 +27,15 @@ def explore_directory(directory, depth=0):
         if os.path.isdir(path):
             if index == len(items) - 1:
                 result += make_branch(item, depth, shape=LEAF)
+                add_depth = 0
             else:
                 result += make_branch(item, depth)
-            result += explore_directory(path, depth + 1)
+                add_depth = 1
+            result += explore_directory(path, depth + [add_depth])
         else:
             if index == len(items) - 1:
                 result += make_branch(item, depth, shape=LEAF)
+                depth = depth[:-1]+[0]
             else:
                 result += make_branch(item, depth)
     return result
