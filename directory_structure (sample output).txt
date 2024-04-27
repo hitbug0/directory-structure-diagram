@@ -1,9 +1,6 @@
 C:\Users\xxx\directory-structure-diagram
  ├── .git
  │    ├── COMMIT_EDITMSG
- │    ├── hooks
- │    │    ├── xxx.sample
- │    ├── index
  │    ├── info
  │    │    └── exclude
  │    ├── logs
